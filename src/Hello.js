@@ -1,9 +1,9 @@
 import React from 'react';
 
-function Hello() {
+function Hello({name}) {
   return (
     <>
-      <h1>Hello World</h1>
+      <h1>Hello {name}</h1>
     </>
   );
 }
